@@ -1,0 +1,15 @@
+											---
+											|&|
+											---
+
+[*] note:  !  -> called null-forgiving operator used in the jwt in program.cs
+
+[1] Pagination
+
+[2] soft Delete
+
+[3] Upload Images
+
+[4] Product Status : [New, Popular, Feature, ... ]
+
+[5] Countries Flags and Search with country name  -> register form

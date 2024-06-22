@@ -1,0 +1,49 @@
+{
+  "isSuccess": true,
+  "message": "Welcome Men3m",
+  "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI2NWVkMzdkMy1kYjg3LTQ5NGQtODU5OS0zMTAwMzg4OTE3NDIiLCJlbWFpbCI6ImFiZGVsbW9uZW1hbndyNzc3N0BnbWFpbC5jb20iLCJuYW1lIjoiTWVuM20iLCJmYW1pbHlfbmFtZSI6IkFud2FyIiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjQyMDAiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MTQ5Mjg0MzYsImV4cCI6MTcxNTAxNDgzNiwiaWF0IjoxNzE0OTI4NDM2fQ.QIK5DKbbOPamhaInhi7R5DyGku_X9Icdgsfhh0A74ojGHsmVHR3-N10hPDNJWvSB2TUDfi5PJ80EtYA0_b7rkA"
+}
+
+// login users
+1- men3m
+{
+  "email": "abdelmonemanwr7777@gmail.com",
+  "password": "Abdelmonemanwr7777@gmail.com",
+  "confirmPassword": "Abdelmonemanwr7777@gmail.com",
+  "firstName": "Men3m",
+  "lastName": "Anwar",
+  "address": "Cairo",
+  "profileImage": "men3m.png",
+  "gender": 0,
+  "roles": [
+    "ADMIN"
+  ]
+}
+
+{
+  "email": "fatmamohamed862s@gmail.com",
+  "password": "Fatmamohamed862s@gmail.com",
+  "confirmPassword": "Fatmamohamed862s@gmail.com",
+  "firstName": "Fatma",
+  "lastName": "Sorour",
+  "address": "Menofia",
+  "profileImage": "fatma.jpg",
+  "gender": 1,
+  "roles": [
+    "USER"
+  ]
+}
+
+{
+  "email": "saraatef1@gmail.com",
+  "password": "SaraAtef1@gmail.com",
+  "confirmPassword": "SaraAtef1@gmail.com",
+  "firstName": "Sara",
+  "lastName": "Atef",
+  "address": "Benha",
+  "profileImage": "sara.png",
+  "gender": 1,
+  "roles": [
+    "User"
+  ]
+}

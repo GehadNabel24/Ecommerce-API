@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EcommerceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:EcommerceAPI.Controllers.CartController.GetAllCategories">
+            <summary>
+            Retrieves all categories.
+            </summary>
+            <returns>A list of cart DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartController.GetCartByID(System.Int32)">
+            <summary>
+            Retrieves a cart by ID.
+            </summary>
+            <param name="id">The ID of the cart to retrieve.</param>
+            <returns>The cart DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartController.PutCart(System.Int32,EcommerceAPI.Models.Cart)">
+            <summary>
+            Updates a cart.
+            </summary>
+            <param name="id">The ID of the cart to update.</param>
+            <param name="cart">The updated cart object.</param>
+            <returns>The updated cart object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartController.AddCart(EcommerceAPI.Models.Cart)">
+            <summary>
+            Adds a new cart.
+            </summary>
+            <param name="cart">The cart object to add.</param>
+            <returns>The added cart object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartController.DeleteCart(System.Int32)">
+            <summary>
+            Deletes a cart by ID.
+            </summary>
+            <param name="id">The ID of the cart to delete.</param>
+            <returns>The deleted cart object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartItemController.GetAllCategories">
+            <summary>
+            Retrieves all categories.
+            </summary>
+            <returns>A list of cartItem DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartItemController.GetCartItemByID(System.Int32)">
+            <summary>
+            Retrieves a cartItem by ID.
+            </summary>
+            <param name="id">The ID of the cartItem to retrieve.</param>
+            <returns>The cartItem DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartItemController.PutCartItem(System.Int32,EcommerceAPI.Models.CartItem)">
+            <summary>
+            Updates a cartItem.
+            </summary>
+            <param name="id">The ID of the cartItem to update.</param>
+            <param name="cartItem">The updated cartItem object.</param>
+            <returns>The updated cartItem object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartItemController.AddCartItem(EcommerceAPI.Models.CartItem)">
+            <summary>
+            Adds a new cartItem.
+            </summary>
+            <param name="cartItem">The cartItem object to add.</param>
+            <returns>The added cartItem object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CartItemController.DeleteCartItem(System.Int32)">
+            <summary>
+            Deletes a cartItem by ID.
+            </summary>
+            <param name="id">The ID of the cartItem to delete.</param>
+            <returns>The deleted cartItem object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CategoryController.GetAllCategories">
+            <summary>
+            Retrieves all categories.
+            </summary>
+            <returns>A list of category DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CategoryController.GetCategoryByID(System.Int32)">
+            <summary>
+            Retrieves a category by ID.
+            </summary>
+            <param name="id">The ID of the category to retrieve.</param>
+            <returns>The category DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CategoryController.PutCategory(System.Int32,EcommerceAPI.Models.Category)">
+            <summary>
+            Updates a category.
+            </summary>
+            <param name="id">The ID of the category to update.</param>
+            <param name="category">The updated category object.</param>
+            <returns>The updated category object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CategoryController.AddCategory(EcommerceAPI.Models.Category)">
+            <summary>
+            Adds a new category.
+            </summary>
+            <param name="category">The category object to add.</param>
+            <returns>The added category object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CategoryController.DeleteCategory(System.Int32)">
+            <summary>
+            Deletes a category by ID.
+            </summary>
+            <param name="id">The ID of the category to delete.</param>
+            <returns>The deleted category object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CouponController.GetAllCoupons">
+            <summary>
+            Retrieves all coupons.
+            </summary>
+            <returns>A list of coupon DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CouponController.GetCouponByID(System.Int32)">
+            <summary>
+            Retrieves a coupon by ID.
+            </summary>
+            <param name="id">The ID of the coupon to retrieve.</param>
+            <returns>The coupon DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CouponController.PutCoupon(System.Int32,EcommerceAPI.Models.Coupon)">
+            <summary>
+            Updates a coupon.
+            </summary>
+            <param name="id">The ID of the coupon to update.</param>
+            <param name="coupon">The updated coupon object.</param>
+            <returns>The updated coupon object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CouponController.AddCoupon(EcommerceAPI.Models.Coupon)">
+            <summary>
+            Adds a new coupon.
+            </summary>
+            <param name="coupon">The coupon object to add.</param>
+            <returns>The added coupon object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.CouponController.DeleteCoupon(System.Int32)">
+            <summary>
+            Deletes a coupon by ID.
+            </summary>
+            <param name="id">The ID of the coupon to delete.</param>
+            <returns>The deleted coupon object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrderProductController.GetAllOrderProduct">
+            <summary>
+            Retrieves all orderProduct.
+            </summary>
+            <returns>A list of orderProduct DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrderProductController.GetorderProductByID(System.Int32)">
+            <summary>
+            Retrieves an orderProduct by ID.
+            </summary>
+            <param name="id">The ID of the orderProduct to retrieve.</param>
+            <returns>The orderProduct DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrderProductController.PutorderProduct(System.Int32,EcommerceAPI.Models.OrderProduct)">
+            <summary>
+            Updates an orderProduct.
+            </summary>
+            <param name="id">The ID of the orderProduct to update.</param>
+            <param name="orderProduct">The updated orderProduct object.</param>
+            <returns>The updated orderProduct object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrderProductController.AddorderProduct(EcommerceAPI.Models.OrderProduct)">
+            <summary>
+            Adds a new orderProduct.
+            </summary>
+            <param name="orderProduct">The orderProduct object to add.</param>
+            <returns>The added orderProduct object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrderProductController.DeleteorderProduct(System.Int32)">
+            <summary>
+            Deletes an orderProduct by ID.
+            </summary>
+            <param name="id">The ID of the orderProduct to delete.</param>
+            <returns>The deleted orderProduct object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrdersController.GetAllOrders">
+            <summary>
+            Retrieves all orders.
+            </summary>
+            <returns>A list of order DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrdersController.GetorderByID(System.Int32)">
+            <summary>
+            Retrieves an order by ID.
+            </summary>
+            <param name="id">The ID of the order to retrieve.</param>
+            <returns>The order DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrdersController.Putorder(System.Int32,EcommerceAPI.Models.Order)">
+            <summary>
+            Updates an order.
+            </summary>
+            <param name="id">The ID of the order to update.</param>
+            <param name="order">The updated order object.</param>
+            <returns>The updated order object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrdersController.Addorder(EcommerceAPI.Models.Order)">
+            <summary>
+            Adds a new order.
+            </summary>
+            <param name="order">The order object to add.</param>
+            <returns>The added order object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.OrdersController.Deleteorder(System.Int32)">
+            <summary>
+            Deletes an order by ID.
+            </summary>
+            <param name="id">The ID of the order to delete.</param>
+            <returns>The deleted order object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ProductsController.GetAllProducts">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns>A list of product DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ProductsController.GetProductByID(System.Int32)">
+            <summary>
+            Retrieves a product by ID.
+            </summary>
+            <param name="id">The ID of the product to retrieve.</param>
+            <returns>The product DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ProductsController.PutProduct(System.Int32,EcommerceAPI.Models.Product)">
+            <summary>
+            Updates a product.
+            </summary>
+            <param name="id">The ID of the product to update.</param>
+            <param name="product">The updated product object.</param>
+            <returns>The updated product object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ProductsController.AddProduct(EcommerceAPI.Models.Product)">
+            <summary>
+            Adds a new product.
+            </summary>
+            <param name="product">The product object to add.</param>
+            <returns>The added product object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Deletes a product by ID.
+            </summary>
+            <param name="id">The ID of the product to delete.</param>
+            <returns>The deleted product object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ReviewController.GetAllReviews">
+            <summary>
+            Retrieves all reviews.
+            </summary>
+            <returns>A list of review DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ReviewController.GetReviewByID(System.Int32)">
+            <summary>
+            Retrieves a review by ID.
+            </summary>
+            <param name="id">The ID of the review to retrieve.</param>
+            <returns>The review DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ReviewController.PutReview(System.Int32,EcommerceAPI.Models.Review)">
+            <summary>
+            Updates a review.
+            </summary>
+            <param name="id">The ID of the review to update.</param>
+            <param name="review">The updated review object.</param>
+            <returns>The updated review object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ReviewController.AddReview(EcommerceAPI.Models.Review)">
+            <summary>
+            Adds a new review.
+            </summary>
+            <param name="review">The review object to add.</param>
+            <returns>The added review object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.ReviewController.DeleteReview(System.Int32)">
+            <summary>
+            Deletes a review by ID.
+            </summary>
+            <param name="id">The ID of the review to delete.</param>
+            <returns>The deleted review object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistController.GetAllWishlists">
+            <summary>
+            Retrieves all wishlists.
+            </summary>
+            <returns>A list of wishlist DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistController.GetWishlistByID(System.Int32)">
+            <summary>
+            Retrieves a wishlist by ID.
+            </summary>
+            <param name="id">The ID of the wishlist to retrieve.</param>
+            <returns>The wishlist DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistController.PutWishlist(System.Int32,EcommerceAPI.Models.Wishlist)">
+            <summary>
+            Updates a wishlist.
+            </summary>
+            <param name="id">The ID of the wishlist to update.</param>
+            <param name="wishlist">The updated wishlist object.</param>
+            <returns>The updated wishlist object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistController.AddWishlist(EcommerceAPI.Models.Wishlist)">
+            <summary>
+            Adds a new wishlist.
+            </summary>
+            <param name="wishlist">The wishlist object to add.</param>
+            <returns>The added wishlist object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistController.DeleteWishlist(System.Int32)">
+            <summary>
+            Deletes a wishlist by ID.
+            </summary>
+            <param name="id">The ID of the wishlist to delete.</param>
+            <returns>The deleted wishlist object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistItemController.GetAllWishlistItems">
+            <summary>
+            Retrieves all wishlistItems.
+            </summary>
+            <returns>A list of wishlistItem DTOs.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistItemController.GetWishlistItemByID(System.Int32)">
+            <summary>
+            Retrieves a wishlistItem by ID.
+            </summary>
+            <param name="id">The ID of the wishlistItem to retrieve.</param>
+            <returns>The wishlistItem DTO.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistItemController.PutWishlistItem(System.Int32,EcommerceAPI.Models.WishlistItem)">
+            <summary>
+            Updates a wishlistItem.
+            </summary>
+            <param name="id">The ID of the wishlistItem to update.</param>
+            <param name="wishlistItem">The updated wishlistItem object.</param>
+            <returns>The updated wishlistItem object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistItemController.AddWishlistItem(EcommerceAPI.Models.WishlistItem)">
+            <summary>
+            Adds a new wishlistItem.
+            </summary>
+            <param name="wishlistItem">The wishlistItem object to add.</param>
+            <returns>The added wishlistItem object.</returns>
+        </member>
+        <member name="M:EcommerceAPI.Controllers.WishlistItemController.DeleteWishlistItem(System.Int32)">
+            <summary>
+            Deletes a wishlistItem by ID.
+            </summary>
+            <param name="id">The ID of the wishlistItem to delete.</param>
+            <returns>The deleted wishlistItem object.</returns>
+        </member>
+        <member name="T:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.Roles">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.PhoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.PhoneNumberConfirmed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.TwoFactorEnabled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EcommerceAPI.DTO.AuthenticationDTOs.UserDetailsDTO.AccessFailedCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EcommerceAPI.Migrations.v1">
+            <inheritdoc />
+        </member>
+        <member name="M:EcommerceAPI.Migrations.v1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EcommerceAPI.Migrations.v1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EcommerceAPI.Migrations.v1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
